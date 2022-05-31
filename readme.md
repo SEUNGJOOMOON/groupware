@@ -4,6 +4,9 @@ This is toy project for studying Servlet Model 2 in KH Academy in 2017.
 
 # Environment
 
-<img src="https://img.shields.io/badge/java-E34F26?style=for-the-badge&logo=java&logoColor=white">
-<img src="https://img.shields.io/badge/oracle-#F80000?style=for-the-badge&logo=oracle&logoColor=white">
-<img src="https://img.shields.io/badge/jsp-#F5C300?style=for-the-badge&logo=jsp&logoColor=white">
+JSP, Oracle 11g, Tomcat, JAVA Servlet
+
+# Demo
+https://www.youtube.com/watch?v=qhbqvtSQVsQ
+https://youtu.be/u-YxHKc4jqE
+![image](https://user-images.githubusercontent.com/42509800/171077983-e5749df8-a87d-479d-be0a-52b5276d92b1.png)
