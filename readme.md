@@ -1,28 +1,30 @@
-±¸ÃàÈ¯°æ
-¼­¹ö : Apache Tomcat v8.5
-°³¹ßÅø : Eclipse java EE IDE for Web Developers v : Neon.1a Prelease(4.6.1)
-µ¥ÀÌÅÍº£ÀÌ½º : Oracle 11g xe
+
+
+# êµ¬ì¶•í™˜ê²½
+ì„œë²„ : Apache Tomcat v8.5
+ê°œë°œíˆ´ : Eclipse java EE IDE for Web Developers v : Neon.1a Prelease(4.6.1)
+ë°ì´í„°ë² ì´ìŠ¤ : Oracle 11g xe
 DBMS : SQL Developer, SQLGate
 
-±¸Ãà¼ø¼­
-1. ¿À¶óÅ¬ µ¥ÀÌÅÍº£ÀÌ½º ¼Â¾÷À» À§ÇØ DBTableQuery.txtÆÄÀÏ ½ÇÇà.
-2. Groupware.zip ÆÄÀÏÀ» ÀÌÅ¬¸³½º ³»ÀÇ Import
-3. web.xmlÀÇ WEB-INF/PropertiesÆÄÀÏ ³»ÀÇ Properties ÆÄÀÏµéÀÇ
-°æ·Î¸¦ ÇöÀç ½Ã½ºÅÛ °æ·Î·Î º¯°æ.
+êµ¬ì¶•ìˆœì„œ
+1. ì˜¤ë¼í´ ë°ì´í„°ë² ì´ìŠ¤ ì…‹ì—…ì„ ìœ„í•´ DBTableQuery.txtíŒŒì¼ ì‹¤í–‰.
+2. Groupware.zip íŒŒì¼ì„ ì´í´ë¦½ìŠ¤ ë‚´ì˜ Import
+3. web.xmlì˜ WEB-INF/PropertiesíŒŒì¼ ë‚´ì˜ Properties íŒŒì¼ë“¤ì˜
+ê²½ë¡œë¥¼ í˜„ì¬ ì‹œìŠ¤í…œ ê²½ë¡œë¡œ ë³€ê²½.
 
-ÃÖÃÊ À¯ÀúÀÇ °æ¿ì »ç¹ø : admin ºñ¹Ğ¹øÈ£ : 1234·Î
-Á¢¼Ó ÈÄ À¯Àú »ı¼º ¹× ±×·ì¿ş¾î¿¡ Á¢±ÙÀÌ °¡´ÉÇÕ´Ï´Ù.
+ìµœì´ˆ ìœ ì €ì˜ ê²½ìš° ì‚¬ë²ˆ : admin ë¹„ë°€ë²ˆí˜¸ : 1234ë¡œ
+ì ‘ì† í›„ ìœ ì € ìƒì„± ë° ê·¸ë£¹ì›¨ì–´ì— ì ‘ê·¼ì´ ê°€ëŠ¥í•©ë‹ˆë‹¤.
 
-·Î±×ÀÎ ½Ã ÇØ´ç À¯ÀúÀÇ Á¤º¸´Â ¼¼¼ÇÀ» ÅëÇØ °ü¸®µË´Ï´Ù.
+ë¡œê·¸ì¸ ì‹œ í•´ë‹¹ ìœ ì €ì˜ ì •ë³´ëŠ” ì„¸ì…˜ì„ í†µí•´ ê´€ë¦¬ë©ë‹ˆë‹¤.
 
-¼¼¼Ç¸í : user_name °ª : À¯Àú¸í
-¼¼¼Ç¸í : user_dept °ª : ºÎ¼­¸í
-¼¼¼Ç¸í : user_position °ª : Á÷À§
-¼¼¼Ç¸í : user_imgsrc °ª : ÇÁ·ÎÇÊ»çÁø url
-¼¼¼Ç¸í : user_address °ª : ÁÖ¼Ò
-¼¼¼Ç¸í : user_contact °ª : ¿¬¶ôÃ³
-¼¼¼Ç¸í : user_hiredate °ª : ÀÔ»çÀÏ
-¼¼¼Ç¸í : user_empno °ª : À¯Àú¹øÈ£
+ì„¸ì…˜ëª… : user_name ê°’ : ìœ ì €ëª…
+ì„¸ì…˜ëª… : user_dept ê°’ : ë¶€ì„œëª…
+ì„¸ì…˜ëª… : user_position ê°’ : ì§ìœ„
+ì„¸ì…˜ëª… : user_imgsrc ê°’ : í”„ë¡œí•„ì‚¬ì§„ url
+ì„¸ì…˜ëª… : user_address ê°’ : ì£¼ì†Œ
+ì„¸ì…˜ëª… : user_contact ê°’ : ì—°ë½ì²˜
+ì„¸ì…˜ëª… : user_hiredate ê°’ : ì…ì‚¬ì¼
+ì„¸ì…˜ëª… : user_empno ê°’ : ìœ ì €ë²ˆí˜¸
 
-±âº» µ¥ÀÌÅÍº£ÀÌ½º Á¢±ÙÁ¤º¸´Â
+ê¸°ë³¸ ë°ì´í„°ë² ì´ìŠ¤ ì ‘ê·¼ì •ë³´ëŠ”
 localhost/scott/tiger
