@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" version="3.1">
+  <servlet>
+    <servlet-name>DBCPInit</servlet-name>
+    <servlet-class>JDBC.DBCPInit</servlet-class>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+   <filter>
+    <filter-name>GroupWareLayout</filter-name>
+    <filter-class> 
+	com.opensymphony.module.sitemesh.filter.PageFilter 
+		</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>GroupWareLayout</filter-name>
+    <url-pattern>/*</url-pattern>
+  </filter-mapping>
+  	<servlet>
+		<servlet-name>EDLControllerURI</servlet-name>
+		<servlet-class>EDL.Controller.EDLController</servlet-class>
+		<init-param>
+			<param-name>EDLpropertyConfig</param-name>
+			<param-value>C:\Users\Nick\Downloads\Groupware\Groupware\WebContent\WEB-INF\Properties\EDLControllerURI.properties</param-value>
+		</init-param>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EDLControllerURI</servlet-name>
+		<url-pattern>*.gw</url-pattern>
+	</servlet-mapping>
+	<!-- 문서함 -->
+	  	<servlet>
+		<servlet-name>ApprovalControllerURI</servlet-name>
+	<servlet-class>Approval.Controller.ApprovalController</servlet-class>
+	<init-param>
+		<param-name>ApprovalpropertyConfig</param-name>
+		<param-value>C:\Users\Nick\Downloads\Groupware\Groupware\WebContent\WEB-INF\Properties\ApprovalControllerURI.properties</param-value>
+	</init-param>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ApprovalControllerURI</servlet-name>
+		<url-pattern>*.ap</url-pattern>
+	</servlet-mapping>
+	<!-- 전자결제 -->
+	
+	<servlet>
+		<servlet-name>PTMControllerURI</servlet-name>
+		<servlet-class>PTM.Controller.PTMControllerURI</servlet-class>
+		<init-param>
+			<param-name>PTMpropertyConfig</param-name>
+			<param-value>C:\Users\Nick\Downloads\Groupware\Groupware\WebContent\WEB-INF\Properties\PTMControllerURI.properties</param-value>
+		</init-param>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>PTMControllerURI</servlet-name>
+		<url-pattern>*.ma</url-pattern>
+	</servlet-mapping>
+	<!-- 고객사관리 -->
+	
+	<servlet>
+		<servlet-name>HRmagController</servlet-name>
+		<servlet-class>HRmag.Controller.HRmagController</servlet-class>
+			<init-param>
+				<param-name>HRmagpropertyConfig</param-name>
+				<param-value>C:\Users\Nick\Downloads\Groupware\Groupware\WebContent\WEB-INF\Properties\HRmagURI.properties</param-value>
+			</init-param>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>HRmagController</servlet-name>
+		<url-pattern>*.hm</url-pattern>
+	</servlet-mapping>
+	<!-- 사원관리 -->
+	<servlet>
+	<servlet-name>RSRController</servlet-name>
+	<servlet-class>RSR.Controller.RSRController</servlet-class>
+	<init-param>
+		<param-name>RSRpropertyConfig</param-name>
+		<param-value>C:\Users\Nick\Downloads\Groupware\Groupware\WebContent\WEB-INF\Properties\RSRController.properties</param-value>
+	</init-param>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RSRController</servlet-name>
+		<url-pattern>*.rs</url-pattern>
+	</servlet-mapping>
+	<!-- 회의실예약 -->
+	
+		<servlet>
+		<servlet-name>HRControllerURI</servlet-name>
+		<servlet-class>HR.Controller.HRController</servlet-class>
+		<init-param>
+		<param-name>HRpropertyConfig</param-name>
+		<param-value>C:\Users\Nick\Downloads\Groupware\Groupware\WebContent\WEB-INF\Properties\HRControllerURI.properties</param-value>
+		</init-param>
+	</servlet>
+		<servlet-mapping>
+		<servlet-name>HRControllerURI</servlet-name>
+		<url-pattern>*.imf</url-pattern>
+	</servlet-mapping>
+	<!-- 정보수정 -->
+	
+	<servlet>
+		<servlet-name>HRAttControllerURI</servlet-name>
+		<servlet-class>HR.Controller.HRAttController</servlet-class>
+		<init-param>
+		<param-name>HRAttpropertyConfig</param-name>
+		<param-value>C:\Users\Nick\Downloads\Groupware\Groupware\WebContent\WEB-INF\Properties\HRAttControllerURI.properties</param-value>
+		</init-param>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>HRAttControllerURI</servlet-name>
+		<url-pattern>*.at</url-pattern>
+	</servlet-mapping>
+	<!-- 출퇴근 -->
+	
+	<servlet>
+		<servlet-name>BoaControllerURI</servlet-name>
+		<servlet-class>Boa.Controller.BoaControllerURI</servlet-class>
+		<init-param>
+		<param-name>BoapropertyConfig</param-name>
+		<param-value>C:\Users\Nick\Downloads\Groupware\Groupware\WebContent\WEB-INF\Properties\BoaControllerURI.properties</param-value>
+		</init-param>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>BoaControllerURI</servlet-name>
+		<url-pattern>*.bo</url-pattern>
+	</servlet-mapping>
+	<!-- 게시판 -->
+</web-app>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

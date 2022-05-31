@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<decorators defaultdir="/layout">
+	<decorator page="/Approval/common/form.jsp" name="Approval_form">
+		<pattern>/Approval/forms/*</pattern>
+	</decorator>
+	<decorator page="/Approval/common/form_read.jsp" name="Approval_form_read">
+		<pattern>/Approval/View.ap</pattern>
+	</decorator>
+	<decorator page="/common/layout/decorator.jsp" name="common_menu">
+		<pattern>/*</pattern>
+	</decorator>
+	<excludes>
+		<pattern>/index.jsp</pattern>
+		<pattern>*/Organization.jsp</pattern>
+		<pattern>*/seekPartner.jsp</pattern>
+		<pattern>*/approvalresult.jsp</pattern>
+	</excludes>
+</decorators>
